@@ -1,11 +1,11 @@
 #!/usr/bin/python
 
 # Usage:
-# python scraper.py --videoid='<video_id>'
+# python app.py --videoid='<video_id>'
 
-from apiclient.errors import HttpError
+from googleapiclient.errors import HttpError
 # import argparser
-from apiclient.discovery import build
+from googleapiclient.discovery import build
 
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
