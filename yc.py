@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # Usage:
-# python scraper.py --videoid='<video_id>'
+# python app.py --videoid='<video_id>'
 
 from apiclient.errors import HttpError
 # import argparser
